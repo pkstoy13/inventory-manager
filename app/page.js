@@ -143,7 +143,7 @@ export default function Home() {
       >
         Add New Item
       </Button>
-      <Box border="1px solid #333">
+      <Box border="3px solid #333">
         <Box
           width="800px"
           height="100px"
@@ -157,7 +157,7 @@ export default function Home() {
           </Typography>
         </Box>
 
-        <Stack height="300px" spacing={2} overflow="auto">
+        <Stack height="300px" overflow="auto">
           {inventory.map(({ name, quantity }) => (
             <Box
               key={name}
